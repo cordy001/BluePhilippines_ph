@@ -57,11 +57,11 @@ addEventListener("scroll", () => {
         update_nav_id.style.transform = "translateY(0)"
     }
 
-    if (winY >= 1700) {
+    if (winY >= 1900) {
         slide1_id.style.opacity = "1"
         slide1_id.style.transform = "translateY(0)"
     }
-    if (winY >= 2100) {
+    if (winY >= 2300) {
         slide2_id.style.opacity = "1"
         slide2_id.style.transform = "translateY(0)"
     }
