@@ -39,17 +39,25 @@ addEventListener("scroll", () => {
         hide_text1_id.style.opacity = "1"
         hide_text2_id.style.opacity = "1"
         banner_nav_id.style.opacity = "1"
+        
+    }
+
+    if (winY <= 340) {
+        banner_left_id.style.display = "flex"
+    } 
+    if (winY >= 780) {
+        banner_left_id.style.display = "none"
     }
 
     if (winY >= 140) {
         hide_text1_id.style.opacity = "0"
         hide_text2_id.style.opacity = "0"
         banner_nav_id.style.opacity = "0"
-
     }
 
     if (winY >= 1200) {
         update_title_setup_id.style.opacity = "1"
+        
     }
 
     if (winY >= 1300) {
