@@ -15,19 +15,21 @@
 
     <link rel="stylesheet" href="css/updates/style.css">
 
+    <link rel="stylesheet" href="css/about_us/style.css">
+
 </head>
 <body>
     <div class="container">
 
-        <div class="header"> 
+        <div class="header" id="header"> 
             <div class="logo">
                 <img src="assets/blue-sea-high-resolution-logo-removebg-preview.png" alt="logo">
             </div>
             <div class="header_menu">
                 <select disabled><option>News</option></select>
                 <select disabled><option>Updates</option></select>
-                <select disabled><option>Blue Laws</option></select>
                 <select disabled><option>About Us</option></select>
+                <select disabled><option>Blue Laws</option></select>
             </div>
             <div class="header_search">
                 <input type="text" placeholder="Search">
@@ -39,10 +41,10 @@
         </div>
 
         <div class="banner">
-            <div class="banner_left">
-                <h1>Blue Philippines</h1>
-                <h2>Protecting the Blue Philippines</h2>
-                <div class="banner_nav">
+            <div class="banner_left" id="banner_left">
+                <h1 id="hide_text1">Blue Philippines</h1>
+                <h2 id="hide_text2">Protecting the Blue Philippines</h2>
+                <div class="banner_nav" id="banner_nav">
                     <div class="banner_nav_email">
                         <input type="email" placeholder="Enter Your Email">
                         <button type="button">Contact Us</button>
@@ -57,12 +59,59 @@
 
        <div class="news">
             <span></span>
-            <button>PREV</button>
             <iframe id="change_iframe" src="https://www.youtube.com/embed/B4EXyZdG2LI?si=rQfcC1tSKerKlkDO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <button>NEXT</button>
         </div>
 
         <div class="update">
+
+            <div class="channg_iframe">
+                <button class="channg_iframe_default1" id="btn1_iframe" onclick="change_iframe1()">News 1</button>
+                <button class="channg_iframe_default2" id="btn2_iframe" onclick="change_iframe2()">News 2</button>
+            </div>
+
+            <div class="update_title_setup" id="update_title_setup">
+
+                <h1>Updates</h1>
+                <p>Pollution (especially plastic waste and oil spills), Overfishing, Habitat destruction, and Climate change (ocean warming, acidification, sea level rise)</p>
+
+            </div>
+
+            <div class="update_nav" id="update_nav">
+
+               <div class="update_info_img"></div>
+
+               <div class="update_infomation_set" id="slide1">
+                    <div>
+                        <h1>Oceans and Seas</h1>
+                        <h2>Cover over 70% of the Earth’s surface and play a critical role in climate
+                            regulation.</h2>
+                    </div>
+                    <div>
+                        <h1>Marine Ecosystems</h1>
+                        <h2>Coral reefs, mangroves, seagrass beds, and deep-sea habitats that support
+                            marine life.</h2>
+                    </div>
+               </div>
+               <div class="update_infomation_set" id="slide2">
+                <div>
+                    <h1>Coastal Areas</h1>
+                    <h2> Beaches, estuaries, and wetlands that act as buffers against storms and provide
+                        habitats for wildlife.</h2>
+                </div>
+                <div>
+                    <h1>Biodiversity</h1>
+                    <h2>A rich variety of fish, marine mammals, plants, and microorganisms essential for
+                        ecological balance.</h2>
+                </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="about_us">
+
+           
 
         </div>
 

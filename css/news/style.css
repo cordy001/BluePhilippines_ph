@@ -10,33 +10,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 120px 30px #bba6a6, inset 0 0 120px 10px #868484;
 }
-.news span {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: #fff;
-    z-index: -1;
-    filter: blur(120px);
-}
+
 .news iframe {
-    width: 85%;
+    width: 95%;
     height: 90%;
     border-radius: 20px;
-}
-.news button {
-    width: 10%;
-    height: 90%;
-    cursor: pointer;
-    border: transparent;
-    border-radius: 10px;
-    opacity: 0.3;
-    transition: 0.5s ease-in-out;
-    color: #000;
-    font-size: 21px;
-    font-weight: bold;
-    background: transparent;
-}
-.news button:hover {
-    opacity: 1;
 }

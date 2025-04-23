@@ -6,6 +6,8 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    z-index: 9999;
+    transition: 1s ease-in-out;
 }
 .header div {
     margin: 0 20px;
@@ -42,7 +44,7 @@
     border-radius: 5px;
     outline: none;
     border: 1px solid #000;
-    background-color: #6fa0bd;
+    background-color: transparent;
 }
 .header_menu select {
     background: transparent;

@@ -19,17 +19,20 @@
     align-items: center;
     flex-flow: column;
     position: fixed;
-    z-index: -1;
+    transition: 50ms ease-in-out;
 }
 .banner_left h1 {
     font-size: 88px;
     margin: 15px;
+    transition: 0.5s ease-in-out;
 }
 .banner_nav {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 0;
+    transition: 0.5s ease-in-out;
+    
 }
 .banner_nav_email {
     display: flex;
