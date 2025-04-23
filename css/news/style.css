@@ -1,0 +1,42 @@
+.news {
+    width: 100%;
+    max-width: 1200px;
+    height: 720px;
+    margin: 0 auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    z-index: -1;
+    filter: blur(120px);
+}
+.news iframe {
+    width: 85%;
+    height: 90%;
+    border-radius: 20px;
+}
+.news button {
+    width: 10%;
+    height: 90%;
+    cursor: pointer;
+    border: transparent;
+    border-radius: 10px;
+    opacity: 0.3;
+    transition: 0.5s ease-in-out;
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+    background: transparent;
+}
+.news button:hover {
+    opacity: 1;
+}
